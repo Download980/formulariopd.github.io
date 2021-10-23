@@ -1,0 +1,59 @@
+body {
+  background: url(tree.jpg) no-repeat center center/cover;
+
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 349px;
+  /* border: 1px solid #0000; */
+  align-items: center;
+  margin: auto;
+  margin-top: 49px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 29px;
+  box-shadow: inset -5px -5px rgba(0, 0, 0, 0.8);
+}
+form h3 {
+  color: #fff;
+  font-size: 2rem;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+  margin: 49px;
+}
+
+.box {
+  padding: 12px;
+  margin: 8px;
+  width: 60%;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.box::placeholder {
+  color: #fff;
+}
+.submit {
+  padding: 20px;
+  margin-top: 50px;
+  width: 50%;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+.submit:hover {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
